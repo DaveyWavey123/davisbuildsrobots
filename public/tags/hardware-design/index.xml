@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hardware Design on Davis Builds Robots</title>
+    <link>http://localhost:1313/tags/hardware-design/</link>
+    <description>Recent content in Hardware Design on Davis Builds Robots</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hardware-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chip-Based Computer</title>
+      <link>http://localhost:1313/projects/chip-based-computer/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/chip-based-computer/</guid>
+      <description>&lt;p&gt;A homemade computer built from scratch using basic logic gates, flip-flops, and memory chips. Runs basic programs and arithmetic.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
+&lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/chipcomp1.jpg&#34; alt=&#34;Breadboard CPU&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/chipcomp2.jpg&#34; alt=&#34;Instruction Decoder&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/chipcomp3.jpg&#34; alt=&#34;Running Program&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-demo-video&#34;&gt;🎥 Demo Video&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/REPLACE_ME&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;max-width: 100%; border-radius: 10px;&#34;&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-features&#34;&gt;🔧 Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;8-bit architecture with ALU&lt;/li&gt;
+&lt;li&gt;Custom opcode set&lt;/li&gt;
+&lt;li&gt;Clocked instruction cycles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-source-code&#34;&gt;🔗 Source Code&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yourusername/chip-computer&#34;&gt;GitHub Repo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

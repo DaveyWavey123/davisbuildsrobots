@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wokwi on Davis Builds Robots</title>
+    <link>http://localhost:1313/tags/wokwi/</link>
+    <description>Recent content in Wokwi on Davis Builds Robots</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wokwi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microcontroller Micro Projects</title>
+      <link>http://localhost:1313/projects/microcontroller-micro-projects/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/microcontroller-micro-projects/</guid>
+      <description>&lt;p&gt;Quick MicroPython experiments with full code, embedded simulators, and source links.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-1-wokwi-debounce-demo&#34;&gt;🧲 1. Wokwi Debounce Demo&lt;/h2&gt;
+&lt;p&gt;This project uses MicroPython to debounce a pushbutton and toggle an LED — ideal for learning interrupts and hardware signal smoothing.&lt;/p&gt;
+&lt;p&gt;🎮 &lt;strong&gt;Live Demo (click + edit):&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+  &lt;iframe width=&#34;100%&#34; height=&#34;500&#34; src=&#34;https://wokwi.com/projects/372153001566564353/embed&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;border-radius: 10px;&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;🧠 &lt;strong&gt;MicroPython Code:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; machine &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Pin
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; time &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sleep
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;led &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Pin(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;, Pin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;OUT)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;btn &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Pin(&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;, Pin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;IN, Pin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;PULL_UP)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; btn&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;value():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        led&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;value(&lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; led&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;value())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        sleep(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.3&lt;/span&gt;)  &lt;span style=&#34;color:#75715e&#34;&gt;# debounce delay&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
