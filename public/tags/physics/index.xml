@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Physics on Davis Builds Robots</title>
+    <link>http://localhost:1313/tags/physics/</link>
+    <description>Recent content in Physics on Davis Builds Robots</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ising Machine</title>
+      <link>http://localhost:1313/projects/ising-machine/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ising-machine/</guid>
+      <description>&lt;style&gt;
+body {
+  text-align: left;
+}
+#matrixSection {
+  text-align: center;
+  margin-top: 2em;
+}
+#matrixWrapper {
+  display: inline-block;
+  margin-top: 30px;
+  color: #000;
+
+}
+.oscillator {
+  width: 50px;
+  height: 30px;
+  background-color: purple;
+  border-radius: 50%;
+  margin: 5px auto 2px;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td, th {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #aaa;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+}
+.active {
+  background-color: #cce5ff;
+}
+.disabled-cell {
+  background-color: #eee;
+  pointer-events: none;
+}
+:root {
+  --btn-bg: #337ab7; /* medium blue for light mode */
+  --btn-bg-hover: #286090;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --btn-bg: #225288;       /* darker blue for dark mode */
+    --btn-bg-hover: #183b61;
+  }
+}
+
+.btn {
+  background: var(--btn-bg);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--btn-bg-hover);
+}
+
+#sliderContainer {
+  margin: 30px auto;
+  background: white;
+  padding: 15px;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+#isingEquation, #outputStates {
+  font-family: monospace;
+  font-size: 16px;
+  margin-top: 30px;
+  text-align: center;
+}
+#calcOutputBtn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;disclaimer&#34;&gt;Disclaimer!&lt;/h2&gt;
+&lt;p&gt;This was truly a MASSIVE undertaking and quite possibly the most technically challenging project that I have ever been a part of.
+As such, I spent an extensive amount of time discussing component selection with experienced PCB design professionals and the theory behind the project with an expert
+in quantum mechanics simulation&amp;hellip; all to do my (relatively) smaller software integration and hardware simulation in the pictured below.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

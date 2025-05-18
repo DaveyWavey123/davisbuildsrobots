@@ -1,0 +1,37 @@
+baseURL = "https://resonant-sunshine-f6a3af.netlify.app/"
+languageCode = "en-us"
+title = "Davis Builds Robots"
+theme = "PaperMod"
+
+[params]
+  description = "A portfolio of embedded systems, robotics, and DIY hacks"
+  keywords = ["hugo", "robotics", "portfolio", "davis builds robots"]
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[permalinks]
+  projects = "/projects/:slug/"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true

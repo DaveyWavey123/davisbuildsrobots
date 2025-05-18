@@ -1,0 +1,38 @@
+---
+title: "Winning Robot"
+date: 2024-04-06
+tags: ["biosignals", "neuroscience", "data visualization"]
+draft: false
+---
+
+A wearable EEG system to detect and visualize brainwave activity using open-source hardware and signal processing tools.
+
+---
+
+## 📸 Photos
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="/images/eeg1.jpg" alt="Headband Sensor" style="max-width: 100%; border-radius: 8px;">
+  <img src="/images/eeg2.jpg" alt="Live Graph" style="max-width: 100%; border-radius: 8px;">
+  <img src="/images/eeg3.jpg" alt="Electrode Setup" style="max-width: 100%; border-radius: 8px;">
+</div>
+
+---
+
+## 🎥 Demo Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/REPLACE_ME" frameborder="0" allowfullscreen style="max-width: 100%; border-radius: 10px;"></iframe>
+
+---
+
+## 🔧 Features
+
+- Multi-channel EEG input
+- Noise filtering and artifact rejection
+- Real-time FFT visualization
+
+---
+
+## 🔗 Source Code
+
+[GitHub Repo](https://github.com/yourusername/eeg-reader)

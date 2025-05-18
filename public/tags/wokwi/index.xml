@@ -13,7 +13,7 @@
       <link>http://localhost:1313/projects/microcontroller-micro-projects/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/microcontroller-micro-projects/</guid>
-      <description>&lt;p&gt;Quick MicroPython experiments with full code, embedded simulators, and source links.&lt;/p&gt;
+      <description>&lt;p&gt;Quick MicroPython experiments with code, embedded simulators, and source links.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-1-wokwi-debounce-demo&#34;&gt;🧲 1. Wokwi Debounce Demo&lt;/h2&gt;
 &lt;p&gt;This project uses MicroPython to debounce a pushbutton and toggle an LED — ideal for learning interrupts and hardware signal smoothing.&lt;/p&gt;

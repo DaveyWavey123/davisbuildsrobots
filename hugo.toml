@@ -1,4 +1,5 @@
-baseURL = 'http://localhost/'
+baseURL = "https://resonant-sunshine-f6a3af.netlify.app/"
+
 languageCode = 'en-us'
 title = 'Davis Builds Robots'
 theme = 'PaperMod'
@@ -10,3 +11,4 @@ theme = 'PaperMod'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+	  

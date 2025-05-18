@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Ising Machine | Davis Builds Robots</title>
+<meta name="keywords" content="computation, physics, optimization">
+<meta name="description" content="
+Disclaimer!
+This was truly a MASSIVE undertaking and quite possibly the most technically challenging project that I have ever been a part of.
+As such, I spent an extensive amount of time discussing component selection with experienced PCB design professionals and the theory behind the project with an expert
+in quantum mechanics simulation&hellip; all to do my (relatively) smaller software integration and hardware simulation in the pictured below.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projects/ising-machine/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/ising-machine/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Davis Builds Robots (Alt + H)">Davis Builds Robots</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Ising Machine
+    </h1>
+    <div class="post-meta"><span title='2024-04-06 00:00:00 +0000 UTC'>April 6, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><style>
+body {
+  text-align: left;
+}
+#matrixSection {
+  text-align: center;
+  margin-top: 2em;
+}
+#matrixWrapper {
+  display: inline-block;
+  margin-top: 30px;
+  color: #000;
+
+}
+.oscillator {
+  width: 50px;
+  height: 30px;
+  background-color: purple;
+  border-radius: 50%;
+  margin: 5px auto 2px;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td, th {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #aaa;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+}
+.active {
+  background-color: #cce5ff;
+}
+.disabled-cell {
+  background-color: #eee;
+  pointer-events: none;
+}
+:root {
+  --btn-bg: #337ab7; /* medium blue for light mode */
+  --btn-bg-hover: #286090;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --btn-bg: #225288;       /* darker blue for dark mode */
+    --btn-bg-hover: #183b61;
+  }
+}
+
+.btn {
+  background: var(--btn-bg);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--btn-bg-hover);
+}
+
+#sliderContainer {
+  margin: 30px auto;
+  background: white;
+  padding: 15px;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+#isingEquation, #outputStates {
+  font-family: monospace;
+  font-size: 16px;
+  margin-top: 30px;
+  text-align: center;
+}
+#calcOutputBtn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+</style>
+<h2 id="disclaimer">Disclaimer!<a hidden class="anchor" aria-hidden="true" href="#disclaimer">#</a></h2>
+<p>This was truly a MASSIVE undertaking and quite possibly the most technically challenging project that I have ever been a part of.
+As such, I spent an extensive amount of time discussing component selection with experienced PCB design professionals and the theory behind the project with an expert
+in quantum mechanics simulation&hellip; all to do my (relatively) smaller software integration and hardware simulation in the pictured below.</p>
+<p>Truthfully, I am posting this more for what I learned than contributed. For more about this project, please go to Matt Bowring&rsquo;s (the quantum expert) website here: <a href="https://mattbowring.com">https://mattbowring.com</a>.</p>
+<p>For my sweeping simplifications, followed by my own professional takeaways, please keep reading!</p>
+<h2 id="the-mission">The Mission<a hidden class="anchor" aria-hidden="true" href="#the-mission">#</a></h2>
+<p>We built this machine to solve optimization problems by mimicking the behavior of spins in a magnetic material (like in the Ising model). Each spin can be &ldquo;up&rdquo; or &ldquo;down&rdquo; (represented as +1 or –1), and the goal is to find the lowest-energy arrangement of these spins.</p>
+<p>At some level, it is very likely you have already had exposure to this kind of problem and phenomena through popular discussions on quantum mechanics. This is because our goal with this machine is actually to simulate a process called <em>quantum annealing</em> through the accessible parts and mechanics of a PCB rather than expensive optical Ising machines.</p>
+<hr>
+<h2 id="-photos">📸 Photos<a hidden class="anchor" aria-hidden="true" href="#-photos">#</a></h2>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+<img src="/images/ising_oscillator.png" alt="Oscillator" style="max-width: 100%; border-radius: 8px;">
+Each LC oscillator (an inductor + a capacitor) represents a spin. These oscillators naturally produce oscillating voltages (like sine waves). 
+The phase of an oscillator (where in the wave it is — like peak or trough) encodes the spin’s state:
+<ul>
+  <li>One phase = spin up (+1)</li>
+  <li>The opposite phase = spin down (–1)</li>
+</ul>
+We built our own oscillator to get a super nice, clean sine wave. Pictured above is my LTSpice model we used to help us spec the LC values at the 5MHz we wanted.
+<img src="/images/extened-block-diagram.jpg" alt="Extended block diagram" style="max-width: 100%; border-radius: 8px;">
+The oscillators are coupled through resistors, so they can influence each other — kind of like magnetic spins pulling each other into alignment (or misalignment) or the way that variables can influence each other in optimization problems.
+The sign and strength of the coupling resistors are like the "J" values in the Ising model, which determine whether two spins want to align or not. Pictured above is the logic flow of our components. I went ahead and put it into a draw.io diagram to help with the coding portion later so we could actually encode our problems to be solved.
+<img src="/images/ising_equation.png" alt="Ising Equation" style="max-width: 100%; border-radius: 8px;">
+What problems can be solved? Anything that can be put into the Ising equation above. Depending on your love of "famous" equations, this may not seem impressive — but that actually includes: logistics & scheduling, vehicle routing, task allocation, portfolio optimization, neural network training (to a limited degree), circuit design and my favorite: qubit error correction (QEC) problems.
+<p>Optical versions of these machines have already been used for QEC but — who has that kind of equipment laying around? Again, our goal was to see if these systems could be placed cheaply on a board you or I could use and interface with a computer to do quantum-y stuff. Hopefully now you&rsquo;re appropriately hyped.</p>
+<img src="/images/ising_board.png" alt="Final board" style="max-width: 100%; border-radius: 8px;">
+The board above uses an ESP32 to communicate with a MAX chip that acts as a FET array for the connections between oscillators. Those oscillators are paired variably via digipots, also receiving input from the ESP32. Lastly, to detect phase and frequency, we used a window detector. And to take in all the different data coming in from that detector I coded cascading shift registers to take the "shotgun" of signals and make them go along one path (also called parallel to serial). If you don't know anything about window detectors, I seriously recommend a quick Google — they solve a lot of key problems in signal processing for a fraction of the cost of an ADC with similar fidelity.
+</div>
+<hr>
+<h2 id="-ising-coupling-interface">🎛️ Ising Coupling Interface<a hidden class="anchor" aria-hidden="true" href="#-ising-coupling-interface">#</a></h2>
+<div id="matrixSection">
+  <h2>Ising Coupling Interface</h2>
+  <p>Click a box to couple an A oscillator to a B oscillator. (Diagonal pairs disallowed)</p>
+  <div id="matrixWrapper">
+    <table id="couplingMatrix"></table>
+  </div>
+  <div id="sliderContainer">
+    <label for="resistanceSlider">Set Resistance (kΩ):</label><br><br>
+    <input type="range" id="resistanceSlider" min="0" max="10000" step="100" value="1000">
+    <br><span id="resistanceValue">1.0</span> kΩ
+  </div>
+<p><button id="calcOutputBtn" class="btn">Re-calculate Theoretical Output</button></p>
+  <div id="outputStates"></div>
+  <div id="isingEquation">E = 0</div>
+</div>
+<script>
+const N = 4;
+const matrix = Array.from({ length: N }, () => Array(N).fill(0));
+const resistanceSlider = document.getElementById("resistanceSlider");
+const resistanceDisplay = document.getElementById("resistanceValue");
+const isingEq = document.getElementById("isingEquation");
+const table = document.getElementById("couplingMatrix");
+const outputDiv = document.getElementById("outputStates");
+const calcButton = document.getElementById("calcOutputBtn");
+
+let A_spins = [1, -1, 1, -1];
+let B_spins = [-1, 1, -1, 1];
+
+function updateEquation() {
+  let terms = [];
+  for (let i = 0; i < N; i++) {
+    for (let j = 0; j < N; j++) {
+      const val = matrix[i][j];
+      if (val !== 0) {
+        const Rk = (val / 1000).toFixed(1);
+        terms.push(`(1/${Rk})·A${j}·B${i}`);
+      }
+    }
+  }
+  isingEq.textContent = "E = " + (terms.length ? terms.join(" + ") : "0");
+}
+
+function setCellText(cell, resistance) {
+  cell.innerHTML = `<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)">${(resistance/1000).toFixed(1)}k</div>`;
+}
+
+function toggle(i, j, cell) {
+  if (i === j) return;
+  if (matrix[i][j] === 0) {
+    const value = parseInt(resistanceSlider.value);
+    matrix[i][j] = value;
+    cell.classList.add("active");
+    setCellText(cell, value);
+  } else {
+    matrix[i][j] = 0;
+    cell.classList.remove("active");
+    cell.innerHTML = "";
+  }
+  updateEquation();
+}
+
+resistanceSlider.addEventListener("input", () => {
+  resistanceDisplay.textContent = (resistanceSlider.value / 1000).toFixed(1);
+});
+
+calcButton.addEventListener("click", () => {
+  let E = 0;
+  for (let i = 0; i < N; i++) {
+    for (let j = 0; j < N; j++) {
+      const R = matrix[i][j];
+      if (R !== 0) {
+        E += (1 / R) * A_spins[j] * B_spins[i];
+      }
+    }
+  }
+
+  outputDiv.innerHTML = `
+    <p>A spins: [${A_spins.join(", ")}]</p>
+    <p>B spins: [${B_spins.join(", ")}]</p>
+    <p><strong>Calculated Energy: ${E.toFixed(4)} Siemens (1/ohms)</strong></p>
+  `;
+});
+
+// Build matrix table
+const headerRow = document.createElement("tr");
+headerRow.appendChild(document.createElement("th"));
+for (let j = 0; j < N; j++) {
+  const th = document.createElement("th");
+  th.innerHTML = `<div class="oscillator"></div><div>A${j}</div>`;
+  headerRow.appendChild(th);
+}
+table.appendChild(headerRow);
+
+for (let i = 0; i < N; i++) {
+  const row = document.createElement("tr");
+  const th = document.createElement("th");
+  th.innerHTML = `<div class="oscillator"></div><div>B${i}</div>`;
+  row.appendChild(th);
+
+  for (let j = 0; j < N; j++) {
+    const cell = document.createElement("td");
+    if (i === j) {
+      cell.classList.add("disabled-cell");
+    } else {
+      cell.addEventListener("click", () => toggle(i, j, cell));
+    }
+    row.appendChild(cell);
+  }
+  table.appendChild(row);
+}
+
+updateEquation();
+</script>
+<hr>
+<h2 id="-demo-video">🎥 Demo Video<a hidden class="anchor" aria-hidden="true" href="#-demo-video">#</a></h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/REPLACE_ME" frameborder="0" allowfullscreen style="max-width: 100%; border-radius: 10px;"></iframe>
+<div>
+Hopefully coming soon!
+</div>
+<hr>
+<h2 id="-features">🔧 Features<a hidden class="anchor" aria-hidden="true" href="#-features">#</a></h2>
+<ul>
+<li>Spin-based problem solving</li>
+<li>Low-power analog computing</li>
+<li>Super Cool</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/computation/">Computation</a></li>
+      <li><a href="http://localhost:1313/tags/physics/">Physics</a></li>
+      <li><a href="http://localhost:1313/tags/optimization/">Optimization</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Davis Builds Robots</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/balancing-bot/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/biosignals/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/chip-based-computer/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/computation/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/control-systems/</loc>
@@ -14,13 +23,34 @@
     <loc>http://localhost:1313/tags/data-acquisition/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/data-visualization/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/digital-logic/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/diy-eeg/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/eeg/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/embedded/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/embedded-chess-ai/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/embedded-systems/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/fluid-dynamics/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/game-design/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hardware-design/</loc>
@@ -32,6 +62,9 @@
     <loc>http://localhost:1313/tags/interactive/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/ising-machine/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/low-level/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,6 +72,24 @@
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mechanical-design/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/microcontroller-micro-projects/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/micropython/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/neuroscience/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/neurotech/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/optimization/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/physics/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/programmable-waterfall/</loc>
@@ -54,6 +105,12 @@
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/testing/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/winning-robot/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wokwi/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>

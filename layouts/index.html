@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Davis Builds Robots</title>
+  <style>
+    :root {
+      --bg: #1e2a38;
+      --text: #e6eaf0;
+      --card-bg: #2a3b4d;
+      --btn-bg: #2c3e50;
+    }
+
+    body.dark {
+      --bg: #121212;
+      --text: #eaeaea;
+      --card-bg: #1e1e1e;
+      --btn-bg: #000000;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 2rem;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .bio-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .bio-header img {
+      width: 220px;
+      border-radius: 12px;
+    }
+
+    .bio-text {
+      max-width: 600px;
+    }
+
+    .toggle-btn {
+      position: fixed;
+      top: 10px;
+      right: 20px;
+      background: var(--btn-bg);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      z-index: 999;
+      font-weight: bold;
+    }
+
+    .project-section {
+      margin-top: 3rem;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .project-card {
+      background: var(--card-bg);
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid #444;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project-content {
+      padding: 1rem;
+    }
+
+    .project-card h3 {
+      margin: 0 0 0.5rem;
+    }
+
+    .project-card p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    .project-card:hover {
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .btn {
+      background: var(--btn-bg);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-btn" onclick="document.body.classList.toggle('dark')">Toggle Dark Mode</button>
+
+  <!-- Bio -->
+  <div class="bio-header">
+    <img src="images/cartoon-avatar.png" alt="Davis cartoon photo" />
+    <div class="bio-text">
+      <h1>Davisbuildsrobots.dev</h1>
+      <p>Hi, I'm Davis. I like working at the intersection of robotics, embedded systems, and DIY hardware hacks. From EEG systems to balancing bots, this site showcases the things I've built and learned along the way.</p>
+    </div>
+	Heads up 👷 This website is still in construction... some items you see are just placeholders for when I have time to add the real thing!
+  </div>
+
+  <!-- Pseudo-professional Section -->
+  <div class="project-section">
+    <h2>Pseudo-professional (mostly team) Projects</h2>
+    <div class="projects-grid">
+      <a href="projects/diy-eeg" class="project-card">
+        <img src="images/eeg.png" alt="DIY EEG" />
+        <div class="project-content">
+          <h3>DIY EEG</h3>
+          <p>Wearable brainwave monitoring using open-source components.</p>
+        </div>
+      </a>
+      <a href="projects/ising-machine/" class="project-card">
+        <img src="images/ising.jpg" alt="Ising Machine" />
+        <div class="project-content">
+          <h3>Ising Machine</h3>
+          <p>"Quantum Simulaton"/ Optimization using custom PCB.</p>
+        </div>
+      </a>
+      <a href="projects/high-acceleration-test-rig/" class="project-card">
+        <img src="images/test-rig.jpg" alt="High Acceleration Test Rig" />
+        <div class="project-content">
+          <h3>High Acceleration Rig</h3>
+          <p>Custom-built platform for testing cooling system under high-g's.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Just Cool Projects -->
+  <div class="project-section">
+    <h2>Just Cool Projects</h2>
+    <div class="projects-grid">
+      <a href="projects/microcontroller-micro-projects/" class="project-card">
+        <img src="images/micro-mcu.jpg" alt="Micro Microcontrollers" />
+        <div class="project-content">
+          <h3>Micro MCU Projects</h3>
+          <p>Tiny little proofs of concept.</p>
+        </div>
+      </a>
+      <a href="projects/balancing-bot/" class="project-card">
+        <img src="images/balance-bot.jpg" alt="Balance Bot" />
+        <div class="project-content">
+          <h3>Balance Bot</h3>
+          <p>Self-balancing robot with real-time rotary encoder feedback and PID control.</p>
+        </div>
+      </a>
+      <a href="projects/winning-robot/" class="project-card">
+        <img src="images/winning-bot.png" alt="Winning Robot" />
+        <div class="project-content">
+          <h3>Winning Robot</h3>
+          <p>A FIRST-style robotics competition I won with a small team at GaTech.</p>
+        </div>
+      </a>
+    </div>
+    <div class="button-container">
+      <a href="projects/" class="btn">View more of my projects</a>
+    </div>
+  </div>
+
+  <script>
+    if (localStorage.getItem("darkMode") === "true") {
+      document.body.classList.add("dark");
+    }
+    document.querySelector('.toggle-btn').addEventListener('click', () => {
+      const dark = document.body.classList.contains('dark');
+      localStorage.setItem("darkMode", !dark);
+    });
+  </script>
+</body>
+</html>

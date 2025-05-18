@@ -5,7 +5,7 @@ tags: ["micropython", "wokwi", "embedded"]
 draft: false
 ---
 
-Quick MicroPython experiments with full code, embedded simulators, and source links.
+Quick MicroPython experiments with code, embedded simulators, and source links.
 
 ---
 

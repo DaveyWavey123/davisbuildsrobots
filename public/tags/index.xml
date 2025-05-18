@@ -9,6 +9,27 @@
     <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Biosignals</title>
+      <link>http://localhost:1313/tags/biosignals/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/biosignals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computation</title>
+      <link>http://localhost:1313/tags/computation/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/computation/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Control Systems</title>
       <link>http://localhost:1313/tags/control-systems/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
@@ -23,6 +44,13 @@
       <description></description>
     </item>
     <item>
+      <title>Data Visualization</title>
+      <link>http://localhost:1313/tags/data-visualization/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Digital Logic</title>
       <link>http://localhost:1313/tags/digital-logic/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
@@ -30,10 +58,38 @@
       <description></description>
     </item>
     <item>
+      <title>EEG</title>
+      <link>http://localhost:1313/tags/eeg/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/eeg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Embedded</title>
+      <link>http://localhost:1313/tags/embedded/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/embedded/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Embedded Systems</title>
+      <link>http://localhost:1313/tags/embedded-systems/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/embedded-systems/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Fluid Dynamics</title>
       <link>http://localhost:1313/tags/fluid-dynamics/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/fluid-dynamics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Design</title>
+      <link>http://localhost:1313/tags/game-design/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/game-design/</guid>
       <description></description>
     </item>
     <item>
@@ -72,6 +128,41 @@
       <description></description>
     </item>
     <item>
+      <title>Micropython</title>
+      <link>http://localhost:1313/tags/micropython/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/micropython/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neuroscience</title>
+      <link>http://localhost:1313/tags/neuroscience/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neurotech</title>
+      <link>http://localhost:1313/tags/neurotech/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/neurotech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimization</title>
+      <link>http://localhost:1313/tags/optimization/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>http://localhost:1313/tags/physics/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/physics/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Robotics</title>
       <link>http://localhost:1313/tags/robotics/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
@@ -83,6 +174,13 @@
       <link>http://localhost:1313/tags/testing/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wokwi</title>
+      <link>http://localhost:1313/tags/wokwi/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wokwi/</guid>
       <description></description>
     </item>
   </channel>
