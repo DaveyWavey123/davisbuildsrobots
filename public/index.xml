@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Davis Builds Robots</title>
-    <link>http://localhost:1313/</link>
+    <link>https://resonant-sunshine-f6a3af.netlify.app/</link>
     <description>Recent content on Davis Builds Robots</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://resonant-sunshine-f6a3af.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Balancing Bot</title>
-      <link>http://localhost:1313/projects/balancing-bot/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/balancing-bot/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/balancing-bot/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/balancing-bot/</guid>
       <description>&lt;p&gt;This is my self-balancing robot project, which uses a PID controller and an IMU to stay upright. Below are images and a video walkthrough of the system.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
 &lt;div style=&#34;flex: 1; min-width: 250px; text-align: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/bot1.PNG&#34; alt=&#34;Front view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/bot1.PNG&#34; alt=&#34;Front view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
   &lt;p&gt;&lt;em&gt;Front view of the robot&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&#34;flex: 1; min-width: 250px; text-align: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/bot2.jpg&#34; alt=&#34;Back view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/bot2.jpg&#34; alt=&#34;Back view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
   &lt;p&gt;&lt;em&gt;Back view with wiring and power pack&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&#34;flex: 1; min-width: 250px; text-align: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/bot3.jpg&#34; alt=&#34;IMU close-up&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/bot3.jpg&#34; alt=&#34;IMU close-up&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
   &lt;p&gt;&lt;em&gt;Close-up of the IMU used for stabilization&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chip-Based Computer</title>
-      <link>http://localhost:1313/projects/chip-based-computer/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/chip-based-computer/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/chip-based-computer/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/chip-based-computer/</guid>
       <description>&lt;p&gt;A homemade computer built from scratch using basic logic gates, flip-flops, and memory chips. Runs basic programs and arithmetic.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/chipcomp1.jpg&#34; alt=&#34;Breadboard CPU&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/chipcomp2.jpg&#34; alt=&#34;Instruction Decoder&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/chipcomp3.jpg&#34; alt=&#34;Running Program&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/chipcomp1.jpg&#34; alt=&#34;Breadboard CPU&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/chipcomp2.jpg&#34; alt=&#34;Instruction Decoder&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/chipcomp3.jpg&#34; alt=&#34;Running Program&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-demo-video&#34;&gt;🎥 Demo Video&lt;/h2&gt;
@@ -58,33 +58,33 @@
     </item>
     <item>
       <title>DIY EEG</title>
-      <link>http://localhost:1313/projects/diy-eeg/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/diy-eeg/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/diy-eeg/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/diy-eeg/</guid>
       <description>&lt;p&gt;This is my DIY EEG project, built using the AD627B instrumentation amplifier and TL084CN op-amp to capture brainwave signals. The circuit is designed to amplify weak scalp-level voltages and filter out common noise, including 60 Hz powerline interference.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
 &lt;div style=&#34;flex: 1; min-width: 250px; text-align: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/forehead.jpg&#34; alt=&#34;EEG electrode setup&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/forehead.jpg&#34; alt=&#34;EEG electrode setup&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
   &lt;p&gt;&lt;em&gt;Two electrodes placed on the Fp1 and Fp2 to track general attention/focus.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&#34;flex: 1; min-width: 250px; text-align: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/hospital.jpg&#34; alt=&#34;Hospital&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/hospital.jpg&#34; alt=&#34;Hospital&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
   &lt;p&gt;&lt;em&gt;Fun fact theres are actually electro cardiagram pads from when I went to the hospital for Rhabdo!&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Embedded Chess AI</title>
-      <link>http://localhost:1313/projects/embedded-chess-ai/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/embedded-chess-ai/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/embedded-chess-ai/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/embedded-chess-ai/</guid>
       <description>&lt;p&gt;A physical chessboard with an embedded AI opponent built using microcontrollers and real-time strategy computation.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/chess1.jpg&#34; alt=&#34;Board with LEDs&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/chess2.jpg&#34; alt=&#34;Microcontroller Wiring&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/chess3.jpg&#34; alt=&#34;Game In Progress&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/chess1.jpg&#34; alt=&#34;Board with LEDs&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/chess2.jpg&#34; alt=&#34;Microcontroller Wiring&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/chess3.jpg&#34; alt=&#34;Game In Progress&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-demo-video&#34;&gt;🎥 Demo Video&lt;/h2&gt;
@@ -102,16 +102,16 @@
     </item>
     <item>
       <title>High Acceleration Test Rig</title>
-      <link>http://localhost:1313/projects/high-acceleration-test-rig/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/high-acceleration-test-rig/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/high-acceleration-test-rig/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/high-acceleration-test-rig/</guid>
       <description>&lt;p&gt;This project focuses on developing a high-g-force mechanical test rig for stress testing components.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/test-rig1.jpg&#34; alt=&#34;Rig Side View&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/test-rig2.jpg&#34; alt=&#34;Sensor Mount&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/test-rig3.jpg&#34; alt=&#34;High-Speed Camera Setup&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/test-rig1.jpg&#34; alt=&#34;Rig Side View&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/test-rig2.jpg&#34; alt=&#34;Sensor Mount&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/test-rig3.jpg&#34; alt=&#34;High-Speed Camera Setup&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-demo-video&#34;&gt;🎥 Demo Video&lt;/h2&gt;
@@ -129,9 +129,9 @@
     </item>
     <item>
       <title>Ising Machine</title>
-      <link>http://localhost:1313/projects/ising-machine/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/ising-machine/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/ising-machine/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/ising-machine/</guid>
       <description>&lt;style&gt;
 body {
   text-align: left;
@@ -230,9 +230,9 @@ in quantum mechanics simulation&amp;hellip; all to do my (relatively) smaller so
     </item>
     <item>
       <title>Microcontroller Micro Projects</title>
-      <link>http://localhost:1313/projects/microcontroller-micro-projects/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/microcontroller-micro-projects/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/microcontroller-micro-projects/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/microcontroller-micro-projects/</guid>
       <description>&lt;p&gt;Quick MicroPython experiments with code, embedded simulators, and source links.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-1-wokwi-debounce-demo&#34;&gt;🧲 1. Wokwi Debounce Demo&lt;/h2&gt;
@@ -256,16 +256,16 @@ in quantum mechanics simulation&amp;hellip; all to do my (relatively) smaller so
     </item>
     <item>
       <title>Programmable Waterfall</title>
-      <link>http://localhost:1313/projects/programmable-waterfall/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/programmable-waterfall/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/programmable-waterfall/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/programmable-waterfall/</guid>
       <description>&lt;p&gt;An interactive waterfall system using valve timing to display shapes, letters, and waves in mid-air using falling water.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/waterfall1.jpg&#34; alt=&#34;Front view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/waterfall2.jpg&#34; alt=&#34;Valve Array&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/waterfall3.jpg&#34; alt=&#34;Pattern Preview&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/waterfall1.jpg&#34; alt=&#34;Front view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/waterfall2.jpg&#34; alt=&#34;Valve Array&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/waterfall3.jpg&#34; alt=&#34;Pattern Preview&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-demo-video&#34;&gt;🎥 Demo Video&lt;/h2&gt;
@@ -283,16 +283,16 @@ in quantum mechanics simulation&amp;hellip; all to do my (relatively) smaller so
     </item>
     <item>
       <title>Winning Robot</title>
-      <link>http://localhost:1313/projects/winning-robot/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/winning-robot/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/winning-robot/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/winning-robot/</guid>
       <description>&lt;p&gt;A wearable EEG system to detect and visualize brainwave activity using open-source hardware and signal processing tools.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/eeg1.jpg&#34; alt=&#34;Headband Sensor&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/eeg2.jpg&#34; alt=&#34;Live Graph&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/eeg3.jpg&#34; alt=&#34;Electrode Setup&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/eeg1.jpg&#34; alt=&#34;Headband Sensor&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/eeg2.jpg&#34; alt=&#34;Live Graph&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/eeg3.jpg&#34; alt=&#34;Electrode Setup&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-demo-video&#34;&gt;🎥 Demo Video&lt;/h2&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Embedded on Davis Builds Robots</title>
-    <link>http://localhost:1313/tags/embedded/</link>
+    <link>https://resonant-sunshine-f6a3af.netlify.app/tags/embedded/</link>
     <description>Recent content in Embedded on Davis Builds Robots</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://resonant-sunshine-f6a3af.netlify.app/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microcontroller Micro Projects</title>
-      <link>http://localhost:1313/projects/microcontroller-micro-projects/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/microcontroller-micro-projects/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/microcontroller-micro-projects/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/microcontroller-micro-projects/</guid>
       <description>&lt;p&gt;Quick MicroPython experiments with code, embedded simulators, and source links.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-1-wokwi-debounce-demo&#34;&gt;🧲 1. Wokwi Debounce Demo&lt;/h2&gt;

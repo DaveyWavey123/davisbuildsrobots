@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Control Systems on Davis Builds Robots</title>
-    <link>http://localhost:1313/tags/control-systems/</link>
+    <link>https://resonant-sunshine-f6a3af.netlify.app/tags/control-systems/</link>
     <description>Recent content in Control Systems on Davis Builds Robots</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/control-systems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://resonant-sunshine-f6a3af.netlify.app/tags/control-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Balancing Bot</title>
-      <link>http://localhost:1313/projects/balancing-bot/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/balancing-bot/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/balancing-bot/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/balancing-bot/</guid>
       <description>&lt;p&gt;This is my self-balancing robot project, which uses a PID controller and an IMU to stay upright. Below are images and a video walkthrough of the system.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
 &lt;div style=&#34;flex: 1; min-width: 250px; text-align: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/bot1.PNG&#34; alt=&#34;Front view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/bot1.PNG&#34; alt=&#34;Front view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
   &lt;p&gt;&lt;em&gt;Front view of the robot&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&#34;flex: 1; min-width: 250px; text-align: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/bot2.jpg&#34; alt=&#34;Back view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/bot2.jpg&#34; alt=&#34;Back view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
   &lt;p&gt;&lt;em&gt;Back view with wiring and power pack&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&#34;flex: 1; min-width: 250px; text-align: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/bot3.jpg&#34; alt=&#34;IMU close-up&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/bot3.jpg&#34; alt=&#34;IMU close-up&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
   &lt;p&gt;&lt;em&gt;Close-up of the IMU used for stabilization&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>

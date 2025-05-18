@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Data Acquisition on Davis Builds Robots</title>
-    <link>http://localhost:1313/tags/data-acquisition/</link>
+    <link>https://resonant-sunshine-f6a3af.netlify.app/tags/data-acquisition/</link>
     <description>Recent content in Data Acquisition on Davis Builds Robots</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/data-acquisition/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://resonant-sunshine-f6a3af.netlify.app/tags/data-acquisition/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>High Acceleration Test Rig</title>
-      <link>http://localhost:1313/projects/high-acceleration-test-rig/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/high-acceleration-test-rig/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/high-acceleration-test-rig/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/high-acceleration-test-rig/</guid>
       <description>&lt;p&gt;This project focuses on developing a high-g-force mechanical test rig for stress testing components.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/test-rig1.jpg&#34; alt=&#34;Rig Side View&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/test-rig2.jpg&#34; alt=&#34;Sensor Mount&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/test-rig3.jpg&#34; alt=&#34;High-Speed Camera Setup&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/test-rig1.jpg&#34; alt=&#34;Rig Side View&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/test-rig2.jpg&#34; alt=&#34;Sensor Mount&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/test-rig3.jpg&#34; alt=&#34;High-Speed Camera Setup&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-demo-video&#34;&gt;🎥 Demo Video&lt;/h2&gt;

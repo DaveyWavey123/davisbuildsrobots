@@ -2,185 +2,185 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Davis Builds Robots</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://resonant-sunshine-f6a3af.netlify.app/tags/</link>
     <description>Recent content in Tags on Davis Builds Robots</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://resonant-sunshine-f6a3af.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/ai/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Biosignals</title>
-      <link>http://localhost:1313/tags/biosignals/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/biosignals/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/biosignals/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/biosignals/</guid>
       <description></description>
     </item>
     <item>
       <title>Computation</title>
-      <link>http://localhost:1313/tags/computation/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/computation/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/computation/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/computation/</guid>
       <description></description>
     </item>
     <item>
       <title>Control Systems</title>
-      <link>http://localhost:1313/tags/control-systems/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/control-systems/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/control-systems/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/control-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Acquisition</title>
-      <link>http://localhost:1313/tags/data-acquisition/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/data-acquisition/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-acquisition/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/data-acquisition/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Visualization</title>
-      <link>http://localhost:1313/tags/data-visualization/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/data-visualization/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-visualization/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/data-visualization/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Logic</title>
-      <link>http://localhost:1313/tags/digital-logic/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/digital-logic/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/digital-logic/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/digital-logic/</guid>
       <description></description>
     </item>
     <item>
       <title>EEG</title>
-      <link>http://localhost:1313/tags/eeg/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/eeg/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/eeg/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/eeg/</guid>
       <description></description>
     </item>
     <item>
       <title>Embedded</title>
-      <link>http://localhost:1313/tags/embedded/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/embedded/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/embedded/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/embedded/</guid>
       <description></description>
     </item>
     <item>
       <title>Embedded Systems</title>
-      <link>http://localhost:1313/tags/embedded-systems/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/embedded-systems/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/embedded-systems/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/embedded-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Fluid Dynamics</title>
-      <link>http://localhost:1313/tags/fluid-dynamics/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/fluid-dynamics/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/fluid-dynamics/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/fluid-dynamics/</guid>
       <description></description>
     </item>
     <item>
       <title>Game Design</title>
-      <link>http://localhost:1313/tags/game-design/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/game-design/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/game-design/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/game-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Hardware Design</title>
-      <link>http://localhost:1313/tags/hardware-design/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/hardware-design/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hardware-design/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/hardware-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Interactive</title>
-      <link>http://localhost:1313/tags/interactive/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/interactive/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/interactive/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/interactive/</guid>
       <description></description>
     </item>
     <item>
       <title>Low-Level</title>
-      <link>http://localhost:1313/tags/low-level/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/low-level/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/low-level/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/low-level/</guid>
       <description></description>
     </item>
     <item>
       <title>Mechanical</title>
-      <link>http://localhost:1313/tags/mechanical/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/mechanical/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mechanical/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/mechanical/</guid>
       <description></description>
     </item>
     <item>
       <title>Mechanical Design</title>
-      <link>http://localhost:1313/tags/mechanical-design/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/mechanical-design/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mechanical-design/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/mechanical-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Micropython</title>
-      <link>http://localhost:1313/tags/micropython/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/micropython/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/micropython/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/micropython/</guid>
       <description></description>
     </item>
     <item>
       <title>Neuroscience</title>
-      <link>http://localhost:1313/tags/neuroscience/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/neuroscience/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/neuroscience/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/neuroscience/</guid>
       <description></description>
     </item>
     <item>
       <title>Neurotech</title>
-      <link>http://localhost:1313/tags/neurotech/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/neurotech/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/neurotech/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/neurotech/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimization</title>
-      <link>http://localhost:1313/tags/optimization/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/optimization/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/optimization/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
       <title>Physics</title>
-      <link>http://localhost:1313/tags/physics/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/physics/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/physics/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/physics/</guid>
       <description></description>
     </item>
     <item>
       <title>Robotics</title>
-      <link>http://localhost:1313/tags/robotics/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/robotics/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/robotics/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/robotics/</guid>
       <description></description>
     </item>
     <item>
       <title>Testing</title>
-      <link>http://localhost:1313/tags/testing/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/testing/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/testing/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Wokwi</title>
-      <link>http://localhost:1313/tags/wokwi/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/tags/wokwi/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wokwi/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/tags/wokwi/</guid>
       <description></description>
     </item>
   </channel>

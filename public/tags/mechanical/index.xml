@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mechanical on Davis Builds Robots</title>
-    <link>http://localhost:1313/tags/mechanical/</link>
+    <link>https://resonant-sunshine-f6a3af.netlify.app/tags/mechanical/</link>
     <description>Recent content in Mechanical on Davis Builds Robots</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mechanical/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://resonant-sunshine-f6a3af.netlify.app/tags/mechanical/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programmable Waterfall</title>
-      <link>http://localhost:1313/projects/programmable-waterfall/</link>
+      <link>https://resonant-sunshine-f6a3af.netlify.app/projects/programmable-waterfall/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/programmable-waterfall/</guid>
+      <guid>https://resonant-sunshine-f6a3af.netlify.app/projects/programmable-waterfall/</guid>
       <description>&lt;p&gt;An interactive waterfall system using valve timing to display shapes, letters, and waves in mid-air using falling water.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-photos&#34;&gt;📸 Photos&lt;/h2&gt;
 &lt;div style=&#34;display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/waterfall1.jpg&#34; alt=&#34;Front view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/waterfall2.jpg&#34; alt=&#34;Valve Array&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/waterfall3.jpg&#34; alt=&#34;Pattern Preview&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/waterfall1.jpg&#34; alt=&#34;Front view&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/waterfall2.jpg&#34; alt=&#34;Valve Array&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
+  &lt;img src=&#34;https://resonant-sunshine-f6a3af.netlify.app/images/waterfall3.jpg&#34; alt=&#34;Pattern Preview&#34; style=&#34;max-width: 100%; border-radius: 8px;&#34;&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-demo-video&#34;&gt;🎥 Demo Video&lt;/h2&gt;
